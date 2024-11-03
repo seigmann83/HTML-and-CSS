@@ -1,0 +1,122 @@
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    
+  }
+  
+ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    border-bottom: #111 1px solid;
+  }
+
+
+
+
+  .info{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #113e4a;
+    color: white;
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: 0px;
+    margin-right: 0px; 
+  
+  }
+
+#arrival{
+  text-align: center;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding: 60px;
+  justify-content: space-around;
+  border: #111 solid;
+
+}
+.flex-container .price{
+  background-color: orange;
+  text-align: center;
+  border: #111 1px solid;
+  list-style: none;
+}
+.flex-container2{
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding: 60px;
+  justify-content: space-around;
+
+  background-color: orange;
+
+}
+
+.flex-container2 img{
+  height: 280px;
+  padding: 4px;
+  
+}
+
+#ab{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: grey;
+  border: #111 2px solid;
+  padding: 30px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#imgL{
+  float: right;
+  position: fixed;
+  height: 60px;
+}
+
+.grid-container{
+  display: grid;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+
+  padding:  10px;
+  margin-top: 40px;
+  
+}
+.grid-container img{
+  height: 350px;
+}
+.grid-container .price{
+  margin-left: 70
+  px;
+  margin-right: 100x;
+  padding: 15px;
+  border: 2px solid black;
+
+}
