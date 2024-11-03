@@ -137,3 +137,18 @@ ul{
   text-decoration: none;
   display: inline-block;
 }
+.checkout{
+  float: right;
+  text-align: center;
+  padding-right: 200px;
+}
+
+.button #check{
+  padding-top: 100
+  px;
+}
+#sub{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 300px;
+}
