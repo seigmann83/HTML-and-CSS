@@ -118,5 +118,22 @@ ul{
   margin-right: 100x;
   padding: 15px;
   border: 2px solid black;
-
+}
+#jacket img{
+  height: 450px;
+  margin-top: 40px;
+  border: solid black 2px;
+}
+#jacketinf{
+  float: right;
+  padding-right: 70px;
+}
+.button{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
